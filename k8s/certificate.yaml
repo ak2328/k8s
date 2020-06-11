@@ -7,14 +7,14 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: k8s.ak2328.online
+  commonName: k8.ak2328.online
   dnsNames:
-    - k8s.ak2328.online
+    - k8.ak2328.online
     - www.k8s.ak2328.online
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
-          - k8s.ak2328.online
+          - k8.ak2328.online
           - www.k8s.ak2328.online
